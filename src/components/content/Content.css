@@ -1,0 +1,29 @@
+.container-content{
+    background-color: white;
+    padding: 20px;
+    margin:20px 0;
+
+}
+.container-content img{
+    object-fit: cover;
+    width: 100%;
+    height: 20vh;
+}
+.container-content h2{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.container-content p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* @media (min-width: 1024px) {
+    .container-content{
+
+        width: 100%;
+    }
+
+  } */
