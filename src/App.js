@@ -21,6 +21,7 @@ function App() {
         </div>
         <div className="col-2">
         < SideContent title="ABOUT ME" text="Lorem Ipsum is simply dummy text." image={paysage3}alt="paysage"/>
+        
         </div>
       </div>
       < Footer />
