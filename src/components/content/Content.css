@@ -1,7 +1,6 @@
 .container-content {
   display: flex;
   justify-content: space-between;
-  border: 1px solid blue;
 }
 
 .container-content .col1 {
@@ -10,4 +9,16 @@
 
 .container-content .col2 {
   width: 30%;
+}
+
+@media (max-width: 760px) {
+  .container-content {
+    margin: 20px;
+  }
+  .container-content .col1 {
+    width: 100%;
+  }
+  .container-content .col2 {
+    display: none;
+  }
 }
