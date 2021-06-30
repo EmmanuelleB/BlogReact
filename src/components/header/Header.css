@@ -1,21 +1,9 @@
-.container-header{
-    padding: 10px;
-    margin: 0;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   
-} 
-
-h1{
-    margin: 0;
-    font-size: 45px;
-    font-weight: 700;
-}
-h3{
-    margin: 10px 0;
-    font-size: 35px;
-
+.container-header {
+  padding: 10px;
+  margin: 0;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

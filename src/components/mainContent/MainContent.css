@@ -1,12 +1,12 @@
-.container-sideContent {
+.container-maincontent {
   background-color: white;
   padding: 20px;
   margin: 20px 0;
 }
-/* .container-sideContent img{
-    object-fit: cover;
-    width: 100%;
-    height: 25vh;
+/* .container-maincontent img {
+  object-fit: cover;
+  width: 100%;
+  height: 20vh;
 } */
 .picture {
   background-color: lightslategray;
@@ -14,16 +14,18 @@
   height: 20vh;
 }
 
-.container-sideContent h2 {
+.container-maincontent h2 {
   font-weight: 700;
   font-size: 25px;
   margin-bottom: 10px;
 }
 
-.container-sideContent p {
+.container-maincontent p {
   font-size: 18px;
   margin: 10px 0;
 }
 
-@media (min-width: 1024px) {
-}
+/* @media (min-width: 1024px) {
+
+
+  } */

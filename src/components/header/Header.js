@@ -1,10 +1,13 @@
 import "./Header.css";
+import Title from "../tiltle/Title";
+import Baseline from "../baseline/Baseline";
 
-export const Header =(props)=>{
-    return(
+const Header = (props) => {
+  return (
     <div className="container-header">
-        <h1>{props.title}</h1>
-        <h3>{props.baseline}</h3>
+      <Title title="My Blog" />
+      <Baseline baseline="An awesome baseline" />
     </div>
-    )
-}
+  );
+};
+export default Header;
